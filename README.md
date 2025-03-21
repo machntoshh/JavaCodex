@@ -1,2 +1,2 @@
 # JavaCodex
-Digital book of learning
+Digital book of my learnings
