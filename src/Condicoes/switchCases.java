@@ -28,6 +28,8 @@ public class switchCases {
             case 3:
                 System.out.println("Você escolheu o Igris");
                 break;
+            default:
+                System.out.println("Não existe nenhuma entrada com esse número");
         }
 
 
