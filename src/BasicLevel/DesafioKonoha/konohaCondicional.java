@@ -1,4 +1,4 @@
-package DesafioKonoha;
+package BasicLevel.DesafioKonoha;
 
 public class konohaCondicional {
     public class Main {

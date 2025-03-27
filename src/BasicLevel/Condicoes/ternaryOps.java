@@ -1,4 +1,4 @@
-package Condicoes;
+package BasicLevel.Condicoes;
 
 public class ternaryOps {
     public static void main(String[] args) {

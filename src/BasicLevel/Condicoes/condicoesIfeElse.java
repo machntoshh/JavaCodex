@@ -1,4 +1,4 @@
-package Condicoes;
+package BasicLevel.Condicoes;
 
 public class condicoesIfeElse {
     public static void main(String[] args) {
