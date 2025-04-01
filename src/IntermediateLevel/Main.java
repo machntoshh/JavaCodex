@@ -31,5 +31,13 @@ public class Main {
         // aplicando metodo idade no Sasuke
         int idadeDezoito = Sasuke.quantoPraDezoito(18);
         System.out.println("Falta " + idadeDezoito + " anos para " + Sasuke.nome + " ter 18");
+
+        // ------------------------------------------------------------------------------------------------------------------
+
+        Poderes poderUm = new Poderes();
+        poderUm.poder = "Chamas azuis";
+        poderUm.nivel = 99;
+        poderUm.descricao = "Chamas fortes que consomem com rápidez";
+        System.out.println(poderUm.poder + " " + poderUm.nivel + " " + poderUm.descricao);
     }
 }
