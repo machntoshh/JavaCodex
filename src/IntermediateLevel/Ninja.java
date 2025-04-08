@@ -16,16 +16,15 @@ public class Ninja { // molde de classe, básicamente
         String statusMissao;
     }
 
-    /*
-    *   Metodo string vai retornar uma string
-    * */
+    // metodo geral q todos os ninjas vão ter (polimorfismo)
+    public void habilidadeEspecial() {
+        System.out.println("Meu nome é " + name + " e esse é meu ataque especial");
+    }
+
+
     public String textoRandom() {
         return "ablubluble";
     }
-
-    /*
-     *   Metodo int vai retornar um int
-     * */
     public int quantoPraDezoito(int idadeRequerida) {
         return idadeRequerida - age;
     }

@@ -6,12 +6,17 @@ public class Main {
         // Objeto Sasuke Uchiha
         Uchiha Sasuke = new Uchiha(); // utilizando a classe filha que ta puxando os valores de herança da mãe, como mãe, age e ikigai
         Sasuke.name = "Sasuke Uchiha";
-        Sasuke.age = 16;
-        Sasuke.ikigai = "Ninja de Konoha";
-        System.out.println(Sasuke.name + " vai ativar seu Doujutsu");
         Sasuke.sharinganAtivado(); // aplicando metodo ao meu objeto
         int idadeDezoito = Sasuke.quantoPraDezoito(18); // aplicando metodo age no Sasuke
         System.out.println("Falta " + idadeDezoito + " anos para " + Sasuke.name + " ter 18");
+        Sasuke.habilidadeEspecial(); // polimorfismo
+
+
+        // Objeto naruto
+        Uzumaki Naruto = new Uzumaki();
+        Naruto.name = "Naruto Uzumaki";
+        Naruto.chakraAumentado();
+        Naruto.habilidadeEspecial(); // polimorfismo
 
 
         // Objeto Itachi
@@ -43,6 +48,31 @@ public class Main {
         Himawari.AtivarKarma();
         Himawari.AtivarJougan();
         Himawari.byakugann();
+
+        // ---------------------------------------Construtores------------------------------------------------------------
+
+
+
+        Hokages hashirama = new Hokages();
+        hashirama.nome = "Hashirama Senju"; // esses dados em Hokages são argumentos
+        hashirama.idade = 50;
+        hashirama.Active = false;
+        System.out.println(hashirama.nome);
+
+
+        Hokages tobirama = new Hokages("Tobirama Senju"); // já passei como argumento na hora da criação um nome
+        System.out.println(tobirama.nome);
+
+
+        Hokages hiruzen = new Hokages(87);
+        System.out.println(hiruzen.idade);
+
+
+        // AllArgs constructor
+        Hokages minato = new Hokages("Minato Namikaze", 32, false);
+        System.out.println(minato.nome);
+        System.out.println(minato.idade);
+        System.out.println(minato.Active);
 
 
         // ------------------------------------------------------------------------------------------------------------------

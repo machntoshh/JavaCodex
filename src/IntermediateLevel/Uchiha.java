@@ -9,6 +9,11 @@ public class Uchiha extends Ninja{
         System.out.println("Ativei minha habilidade " + habilidadeEspecial);
     }
 
+    @Override // usar isso toda vez que eu quero fazer polimorfismo e quiser sobrescrever algum metodo
+    public void habilidadeEspecial(){
+        System.out.println("Meu nome é " + name + " e esse é meu ataque Uchiha, KATON");
+    }
+
     public void sharinganAtivado() {
 
         System.out.println(name + " ativou o sharingan!!!");
